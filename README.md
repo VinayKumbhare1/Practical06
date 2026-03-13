@@ -1,80 +1,56 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Scholarship / Seminar Registration Form</title>
-</head>
+# Scholarship / Seminar Registration Form
 
-<body>
+## Project Description
 
-<h2>Scholarship / Seminar Registration Form</h2>
+This project is a simple HTML web page that creates a **Scholarship / Seminar Registration Form**.
+The form collects personal information, academic details, and seminar topic preferences from users.
 
-<form>
+## Technologies Used
 
+* HTML5
 
-<fieldset>
-<legend>Personal Information</legend>
+## Features
 
-<label>Full Name:</label>
-<input type="text" name="fullname"><br><br>
+* Collects **Personal Information**
 
-<label>Email:</label>
-<input type="email" name="email"><br><br>
+  * Full Name
+  * Email
+  * Phone Number
+  * Gender
+* Collects **Academic Details**
 
-<label>Phone Number:</label>
-<input type="tel" name="phone"><br><br>
+  * Course Selection
+  * Year of Study
+* Allows users to select **Seminar Topics of Interest**
+* Includes **Submit (Register) and Reset (Clear) buttons**
 
-<label>Gender:</label><br>
-<input type="radio" name="gender" value="male"> Male
-<input type="radio" name="gender" value="female"> Female
-<input type="radio" name="gender" value="other"> Other
+## HTML Tags Used
 
-</fieldset>
+* `<!DOCTYPE html>`
+* `<html>`
+* `<head>`
+* `<title>`
+* `<body>`
+* `<form>`
+* `<fieldset>`
+* `<legend>`
+* `<label>`
+* `<input>`
+* `<select>`
+* `<option>`
+* `<br>`
 
-<br>
+## How to Run
 
+1. Copy the HTML code into a file.
+2. Save the file as **practical6.html**.
+3. Open the file in any web browser (Chrome, Edge, Firefox).
+4. The registration form will appear on the screen.
 
-<fieldset>
-<legend>Academic Details</legend>
+## Purpose
 
-<label>Course:</label>
-<select name="course">
-<option value="">--Select Course--</option>
-<option value="btech">B.Tech</option>
-<option value="bsc">B.Sc</option>
-<option value="bca">BCA</option>
-<option value="mca">MCA</option>
-<option value="msc">M.Sc</option>
-</select>
+The purpose of this project is to understand the use of **HTML forms and input elements** for collecting user information on a webpage.
 
-<br><br>
+## Author
 
-<label>Year Of Study:</label>
-<select name="year">
-<option>1st Year</option>
-<option>2nd Year</option>
-<option>3rd Year</option>
-<option>4th Year</option>
-</select>
-
-</fieldset>
-
-<br>
-<fieldset>
-<legend>Seminar Topics Interested In</legend>
-
-<input type="checkbox" name="topic" value="ai"> Artificial Intelligence<br>
-<input type="checkbox" name="topic" value="web"> Web Development<br>
-<input type="checkbox" name="topic" value="cyber"> Cyber Security<br>
-<input type="checkbox" name="topic" value="data"> Data Science
-
-</fieldset>
-
-<br>
-
-<input type="submit" value="Register">
-<input type="reset" value="Clear">
-
-</form>
-
-</body>
-</html>
+Vinay Kumbhare
